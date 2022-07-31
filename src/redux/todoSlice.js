@@ -13,8 +13,6 @@ const TodoListSlice = createSlice({
         filterItem:'All'
     },
 
-    
-
     reducers:{
         Adding:(state,action)=>{
             state.todoListe.unshift(action.payload)

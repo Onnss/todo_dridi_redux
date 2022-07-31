@@ -7,7 +7,6 @@ import Header from './component/header';
 
 
 function App() {
-  
   let todoListe = useSelector(state => state.Todo.todoListe)
   let Filtered = useSelector(state => state.Todo.filterItem)
   return (
