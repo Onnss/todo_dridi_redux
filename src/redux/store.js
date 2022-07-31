@@ -5,5 +5,6 @@ export const Store = configureStore({
     reducer:{
 Todo :TodoListSlice
     }
+    
 })
 
