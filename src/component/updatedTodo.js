@@ -8,7 +8,6 @@ const UpdateForm = ({id,updateData}) => {
     dispatch(ChangeTask({id:id,task:update}))
     dispatch(toggleUpdate(id))
   }
-  
   const HandleCancel=()=>{
     dispatch(toggleUpdate(id))
   }

@@ -12,7 +12,6 @@ import UpdateForm from "./updatedTodo";
 function Todos({todoListe}) {
     let dispatch = useDispatch()
     return ( 
-        
         <div>
 {todoListe.updated? <UpdateForm id={todoListe.id} updateData={todoListe} />: <li className="list-item" key={todoListe.id}>
                 {<input className={`list ${todoListe.completed ? "complete":""}` }value={todoListe.task} readOnly='readonly'></input>}
